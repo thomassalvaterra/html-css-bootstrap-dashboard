@@ -1,0 +1,18 @@
+#sidebar{
+    background-color: #051E34;
+    min-height: 100vh;
+    width: 150px;
+}
+
+.topMenu{
+    height: calc(100% - 8rem);
+}
+
+.bottomMenu{
+    height: 8rem;
+}
+
+
+.notDot{
+    list-style-type: none;
+}
