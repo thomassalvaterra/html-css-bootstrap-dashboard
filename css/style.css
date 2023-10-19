@@ -1,6 +1,11 @@
+.navbar{
+    height: 4rem;
+}
+
+
 #sidebar{
     background-color: #051E34;
-    min-height: 100rem;
+    height: calc(100% - 4rem);
     width: 10rem;
 }
 
@@ -18,5 +23,5 @@
 
 #home{
     width: calc(100% - 10rem);
-    
+    height: 100rem;
 }
