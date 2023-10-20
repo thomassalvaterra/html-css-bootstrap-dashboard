@@ -1,12 +1,30 @@
-.navbar{
+/* HEADER */
+
+header{
     height: 4rem;
 }
 
+.my_logo{
+    max-height: 3rem;
+}
+
+/* NAVBAR LEFT */
 
 #sidebar{
     background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
     height: calc(100vh - 4rem);
     width: 10rem;
+}
+
+.list:hover{
+    background-color: grey;
+    color: white;
+}
+
+.menu{
+    height: 55rem;
 }
 
 .topMenu{
@@ -21,8 +39,33 @@
     list-style-type: none;
 }
 
+/* MAIN */
+
+main{
+    overflow-y: hidden;
+}
+
 #home{
     width: calc(100% - 10rem);
     height: calc(100vh - 4rem);
     overflow-y: auto;
 }
+
+.cerchio{
+    width: 2rem;
+}
+
+/* MEDIA QUERY */
+
+/* @media screen and (max-width: 992px) {
+    #sidebar{
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #sidebar{
+        width: calc(100% - 5rem);
+    }
+} */
+
