@@ -1,7 +1,7 @@
 /* HEADER */
 
 header{
-    height: 4rem;
+    height: 50px;
 }
 
 .my_logo{
@@ -14,7 +14,7 @@ header{
     background-color: #051E34;
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 50px);
     width: 10rem;
 }
 
@@ -45,9 +45,13 @@ main{
     overflow-y: hidden;
 }
 
+.bg-blue{
+    background-color: rgb(0, 119, 179);
+}
+
 #home{
     width: calc(100% - 10rem);
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 50px);
     overflow-y: auto;
 }
 
@@ -58,14 +62,16 @@ main{
 /* MEDIA QUERY */
 
 /* @media screen and (max-width: 992px) {
+
     #sidebar{
-        width: 10rem;
+        max-width: 5rem;
     }
+
 }
 
 @media screen and (max-width: 768px) {
     #sidebar{
-        width: calc(100% - 5rem);
+        max-width: 5rem;
     }
-} */
+}  */
 
